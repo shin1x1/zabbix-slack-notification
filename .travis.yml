@@ -9,10 +9,9 @@ php:
   - 7.0
 
 env:
-  CODECEPTION_URL="http://codeception.com/codecept.phar"
+  CODECEPTION_URL="http://codeception.com/releases/1.8.7/codecept.phar"
 
 before_script:
-  - if [ $(phpenv version-name) = "5.3" ]; then export CODECEPTION_URL="http://codeception.com/releases/1.8.7/codecept.phar"; fi
   - wget ${CODECEPTION_URL}
 
 script:
