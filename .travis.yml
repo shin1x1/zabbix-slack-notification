@@ -12,4 +12,4 @@ before_script:
   - wget http://codeception.com/codecept.phar
 
 script:
-  - php codecept run
+  - php codecept.phar run
