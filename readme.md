@@ -43,10 +43,20 @@ $ZABBIX_URL = 'https://example.com/zabbix/'; // (optional) your zabbix web front
 
 ### 1. Add new Media Type
 
+[Administration] - [Media Types] - [Create media type]
+
+
 
 ### 2. Add Slack Media Type to admin user
 
+[Administration] - [Users]
+
+
 
 ### 3. Add new Action
+
+[Configuration] - [Actions] - [Create action]
+
+
 
 
