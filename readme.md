@@ -51,6 +51,8 @@ $ZABBIX_URL = 'https://example.com/zabbix/'; // (optional) your zabbix web front
 
 [Administration] - [Users]
 
+* `Send to` - Slack channel
+
 <img width="275" alt="configuration_of_users" src="https://cloud.githubusercontent.com/assets/88324/13426530/55e84078-dff1-11e5-89d7-9856dce4ca06.png">
 
 <img width="201" alt="media" src="https://cloud.githubusercontent.com/assets/88324/13426479/f3f015da-dff0-11e5-9348-e7a1e92c29fb.png">
